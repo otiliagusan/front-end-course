@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* box-sizing determina cum sunt calculate height si width al unui element, 
+    border-box, how the width and height of an element are calculated,
+    taking into account the element's padding and border, rather than just its content.*/
+}
+body {
+    font-family: 'EB Garamond', serif;
+    line-height: 1.5;
+    background-color: #EFEFFF;
+    color: #000025;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #000025;
+    padding: 8px;
+    text-align: center;  
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 999;
+}
+header nav a {
+    text-decoration: none;
+    color: #EFEFFF;
+    padding: 8px;
+    font-size: 18px;
+}
+header nav a:hover {
+    color:blue;
+}
+.accent {
+color: blue;
+}
+main{
+    margin: 24px;
+    padding: 24px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+main h1{
+    text-align: center;
+    padding: 16px;
+    margin-bottom: 24px;;
+    font-size: 32px;
+}
+main img{
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 24px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);   
+}
+article h2{
+    font-size:24px;
+    padding: 8px;
+}
+article h3{
+    font-size: 20px;
+    padding: 8px;
+    font-weight: normal;
+}
+li {
+    margin-left: 24px;
+    text-decoration: underline;   
+}
+article p{
+    margin-left: 32px;
+    font-size: 20px;
+    text-align: justify;
+}
+table {
+    width: 100%;
+}
+
+table td {
+    text-align: center;
+    font-size:18px;
+    font-weight: bold;   
+}
+table img {
+    height: 300px; ;
+    border-radius: 8px;
+}
+table a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #EFEFFF;
+}
+table button {
+    background-color:#000025;
+    border: none;
+    border-radius: 16px;
+    padding: 8px 16px;
+    font-size: 14px; 
+    margin-top: 16px;  
+}
+table button:hover {
+    background-color: blue;
+}
+article#BookClub p{
+    padding: 8px;
+}
+form label {   
+    font-size: 18px;   
+}
+form input{
+    width: 300px;
+    height: 32px;
+    margin-bottom: 16px;
+    border-radius: 8px;
+}
+.button_form{
+    width: 10%;
+    background-color: #000025;
+    border: none;
+    font-size: 14px;
+    color: #EFEFFF;
+    border-radius: 16px;
+    padding: 8px 16px;
+    font-size: 14px;    
+}
+.button_form:hover {
+    background-color: blue;
+}
+footer p{
+    text-align: center;
+    margin-bottom:  16px;
+}
+
