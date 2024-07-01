@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(Frame\ 4.png);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  max-width: 100%;
+  height: auto;
+}
+button {
+  position: absolute;
+  top: 90%;
+  right: 59%;
+  font-size: 32px;
+  padding: 12px 24px;
+  border-color: #000;
+  border-radius: 32px;
+  border-width: 3px;
+  text-align: center;
+  background-color: #feffdd;
+}
+button:hover {
+  background-color: #000;
+  color: #feffdd;
+}
