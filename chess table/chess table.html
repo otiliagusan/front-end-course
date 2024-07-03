@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chess Table</title>
+    <link rel="stylesheet" href="chess style.css">
+</head>
+<body>
+    <header>
+        <h1>Descoperă figurile de șah</h1>
+    </header>
+    <main>
+    
+        <table  id="top">
+            <tr id="9">
+                <td id="a">a</td>
+                <td id="b">b</td>
+                <td id="c">c</td>
+                <td id="d">d</td>
+                <td id="e">e</td>
+                <td id="f">f</td>
+                <td id="g">g</td>
+                <td id="h">h</td>
+            </tr>
+        </table>
+           <table  id="left">
+            <tr><td>8</td></tr>
+            <tr><td>7</td></tr>
+            <tr><td>6</td></tr>
+            <tr><td>5</td></tr>
+            <tr><td>4</td></tr>
+            <tr><td>3</td></tr>
+            <tr><td>2</td></tr>
+            <tr><td>1</td></tr>
+        </table>
+           </table>
+           <table  id="right">
+            <tr><td>8</td></tr>
+            <tr><td>7</td></tr>
+            <tr><td>6</td></tr>
+            <tr><td>5</td></tr>
+            <tr><td>4</td></tr>
+            <tr><td>3</td></tr>
+            <tr><td>2</td></tr>
+            <tr><td>1</td></tr>
+        </table>
+    <table border =3 id="chess_t">
+        <tr id="8" >
+            <td id="a" class="unicode"><span data-text="Turn" class="tooltip">&#9820;</span></td>
+            <td id="b" class="unicode"><span data-text="Cal" class="tooltip">&#9822;</span></td>
+            <td id="c" class="unicode"><span data-text="Nebun" class="tooltip">&#9821;</span></td>
+            <td id="d" class="unicode"><span data-text="Damă" class="tooltip">&#9819;</span></td>
+            <td id="e" class="unicode"><span data-text="Rege" class="tooltip">&#9818;</span></td>
+            <td id="f" class="unicode"><span data-text="Nebun" class="tooltip">&#9821;</span></td>
+            <td id="g" class="unicode"><span data-text="Cal" class="tooltip">&#9822;</span></td>
+            <td id="h" class="unicode"><span data-text="Turn" class="tooltip">&#9820;</span></td>    
+        </tr>
+        <tr id="7" >
+            <td id="a" class="unicode"><span data-text="Pion" class="tooltip">&#9823;</span></td>
+            <td id="b" class="unicode"><span data-text="Pion" class="tooltip">&#9823;</span></td>
+            <td id="c" class="unicode"><span data-text="Pion" class="tooltip">&#9823;</span></td>
+            <td id="d" class="unicode"><span data-text="Pion" class="tooltip">&#9823;</span></td>
+            <td id="e" class="unicode"><span data-text="Pion" class="tooltip">&#9823;</span></td>
+            <td id="f" class="unicode"><span data-text="Pion" class="tooltip">&#9823;</span></td>
+            <td id="g" class="unicode"><span data-text="Pion" class="tooltip">&#9823;</span></td>
+            <td id="h" class="unicode"><span data-text="Pion" class="tooltip">&#9823;</span></td>
+        </tr>
+        <tr id="6">
+            <td id="a"></td>
+            <td id="b"></td>
+            <td id="c"></td>
+            <td id="d"></td>
+            <td id="e"></td>
+            <td id="f"></td>
+            <td id="g"></td>
+            <td id="h"></td>
+        </tr>
+        <tr id="5">
+            <td id="a"></td>
+            <td id="b"></td>
+            <td id="c"></td>
+            <td id="d"></td>
+            <td id="e"></td>
+            <td id="f"></td>
+            <td id="g"></td>
+            <td id="h"></td>
+        </tr>
+        <tr id="4">
+            <td id="a"></td>
+            <td id="b"></td>
+            <td id="c"></td>
+            <td id="d"></td>
+            <td id="e"></td>
+            <td id="f"></td>
+            <td id="g"></td>
+            <td id="h"></td>
+        </tr>
+        <tr id="3">
+            <td id="a"></td>
+            <td id="b"></td>
+            <td id="c"></td>
+            <td id="d"></td>
+            <td id="e"></td>
+            <td id="f"></td>
+            <td id="g"></td>
+            <td id="h"></td>
+        </tr>
+        <tr id="2" >
+            <td id="a" class="unicode"><span data-text="Pion" class="tooltip2">&#9817;</span></td>
+            <td id="b" class="unicode"><span data-text="Pion" class="tooltip2">&#9817;</span></td>
+            <td id="c" class="unicode"><span data-text="Pion" class="tooltip2">&#9817;</span></td>
+            <td id="d" class="unicode"><span data-text="Pion" class="tooltip2">&#9817;</span></td>
+            <td id="e" class="unicode"><span data-text="Pion" class="tooltip2">&#9817;</span></td>
+            <td id="f" class="unicode"><span data-text="Pion" class="tooltip2">&#9817;</span></td>
+            <td id="g" class="unicode"><span data-text="Pion" class="tooltip2">&#9817;</span></td>
+            <td id="h" class="unicode"><span data-text="Pion" class="tooltip2">&#9817;</span>
+        <tr id="1">
+            <td id="a" class="unicode"><span data-text="Turn" class="tooltip2">&#9814;</span></td>
+            <td id="b" class="unicode"><span data-text="Turn" class="tooltip2">&#9816;</span></td>
+            <td id="c" class="unicode"><span data-text="Turn" class="tooltip2">&#9815;</span></td>
+            <td id="d" class="unicode"><span data-text="Turn" class="tooltip2">&#9813;</span></td>
+            <td id="e" class="unicode"><span data-text="Turn" class="tooltip2">&#9812;</span></td>
+            <td id="f" class="unicode"><span data-text="Turn" class="tooltip2">&#9815;</span></td>
+            <td id="g" class="unicode"><span data-text="Turn" class="tooltip2">&#9816;</span></td>
+            <td id="h" class="unicode"><span data-text="Turn" class="tooltip2">&#9814;</span></td>
+        </tr>   
+    </table>
+    <table id="bottom">
+        <tr id="0">
+            <td id="a">a</td>
+            <td id="b">b</td>
+            <td id="c">c</td>
+            <td id="d">d</td>
+            <td id="e">e</td>
+            <td id="f">f</td>
+            <td id="g">g</td>
+            <td id="h">h</td>
+        </tr>
+    </table> 
+    </main>
+    <footer></footer>
+</body>
+</html>

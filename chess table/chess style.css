@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #fff1e8;
+}
+h1 {
+  text-align: center;
+  margin-top: 48px;
+  padding: 16px;
+}
+#chess_t {
+  width: 500px;
+  height: 500px;
+  margin-left: 34%;
+}
+#chess_t tr:nth-of-type(even) td:nth-of-type(odd),
+#chess_t tr:nth-of-type(odd) td:nth-of-type(even) {
+  background-color: #6a4a3a;
+}
+.unicode {
+  text-align: center;
+  font-size: 32px;
+  line-height: 5px;
+}
+#chess_t td {
+  height: 10px;
+}
+#top,
+#bottom {
+  width: 500px;
+  margin-left: 34%;
+  text-align: center;
+}
+#left {
+  position: absolute;
+  height: 500px;
+  margin-left: 33%;
+}
+#right {
+  position: absolute;
+  height: 500px;
+  margin-left: 66.7%;
+}
+#chess_t td:hover {
+  background-color: #fff;
+}
+#chess_t td#a:hover,
+#chess_t td#b:hover,
+#chess_t td#c:hover,
+#chess_t td#d:hover,
+#chess_t td#e:hover,
+#chess_t td#f:hover,
+#chess_t td#g:hover,
+#chess_t td#h:hover {
+  background-color: #fff;
+}
+#chess_t td.unicode:hover {
+  color: #d8cbc4;
+}
+.tooltip {
+  position: relative; /* making the .tooltip span a container for the tooltip text */
+}
+.tooltip:before {
+  content: attr(data-text); /* here's the magic */
+  position: absolute;
+  top: 5%;
+  transform: translateY(-50%);
+  left: 100%;
+  max-width: fit-content;
+  font-size: 16px;
+  text-align: center;
+  padding: 14px;
+  border-radius: 8px;
+  background-color: #000;
+  color: #fff;
+  border-style: solid;
+  border-width: 1.5px;
+  color: #fff;
+  display: none; /* hide by default */
+  z-index: 999;
+}
+.tooltip:hover:before {
+  display: block;
+}
+.tooltip2 {
+  position: relative; /* making the .tooltip span a container for the tooltip text */
+}
+.tooltip2:before {
+  content: attr(data-text); /* here's the magic */
+  position: absolute;
+  top: 5%;
+  transform: translateY(-50%);
+  left: 100%;
+  max-width: fit-content;
+  font-size: 16px;
+  text-align: center;
+  padding: 14px;
+  border-radius: 8px;
+  background-color: #fff;
+  color: #000;
+  border-style: solid;
+  border-width: 1.5px;
+  color: #000;
+  display: none; /* hide by default */
+  z-index: 999;
+}
+.tooltip2:hover:before {
+  display: block;
+}
