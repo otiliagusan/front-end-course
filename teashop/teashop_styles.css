@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+  color: seashell;
+  font-size: 22px;
+  opacity: 0.9;
+}
+nav {
+  height: 69px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+}
+#logo img {
+  height: 50px;
+  margin-left: 10px;
+}
+#menu a {
+  color: seashell;
+  text-decoration: underline;
+  padding: 8px;
+}
+#image-mission {
+  height: 700px;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+#text-mission {
+  width: 1200px;
+  background-color: black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+.tea_selection img {
+  width: 300px;
+  height: 200px;
+  padding: 10px;
+}
+#text_featuredtea {
+  text-align: center;
+  padding: 24px;
+}
+#top,
+#bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 10px;
+}
+.tea_selection h4 {
+  text-align: center;
+}
+#featured_tea {
+  margin-top: 150px;
+}
+#locations {
+  background-image: url(images_teashop/img-locations-background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 100px;
+  height: 500px;
+}
+#text_locations {
+  padding-top: 80px;
+  padding-bottom: 15px;
+  text-align: center;
+  color: seashell;
+}
+#downtown,
+#east_bayside,
+#oakdale {
+  background-color: black;
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 300px;
+  height: 300px;
+  padding: 10px;
+  color: seashell;
+}
+#cards_locations {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+#contact {
+  height: 200px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+footer {
+  color: seashell;
+  font-size: 14px;
+  padding: 10px 0 10px 20px;
+}
