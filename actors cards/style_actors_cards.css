@@ -1,0 +1,130 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+}
+.card-container {
+  max-width: 1100px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.card {
+  margin-top: 75px;
+  flex-basis: 280px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.inner-container-card {
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+}
+.img {
+  display: flex;
+  justify-content: center;
+}
+.img img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  margin-top: -75px;
+  border: 5px solid #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  object-fit: cover;
+}
+.img img:hover {
+  transform: translate3d(0, -5px, 0);
+  transition: transform 0.35s;
+}
+.name {
+  display: flex;
+  flex-direction: column;
+}
+.name h5 {
+  color: green;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 5px;
+}
+.film-info {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: solid grey;
+  border-top: solid grey;
+  height: 131px;
+}
+.film-logo {
+  height: 100%;
+}
+.film-logo img {
+  width: auto;
+  height: 100%;
+  width: auto;
+}
+.film-description {
+  flex-grow: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -15px;
+}
+.the-matrix {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.the-matrix h5 {
+  margin-bottom: -8px;
+  font-size: 18px;
+}
+.the-matrix p {
+  color: grey;
+  font-size: 8px;
+}
+.the-matrix h6 {
+  font-size: 12px;
+  margin-top: 5px;
+}
+.imdb {
+  margin-right: 20px;
+  align-self: flex-end;
+}
+.imdb img {
+  height: 25px;
+}
+.award {
+  display: flex;
+  justify-content: space-between;
+}
+.award .award-img img {
+  width: 75px;
+}
+.award-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.actor-content h5 {
+  font-size: 14px;
+}
+.actor-content p {
+  font-size: 12px;
+  margin-top: -10px;
+}
+.wins {
+  color: green;
+  font-weight: 600;
+  font-size: 10px;
+}
+.nominations {
+  color: gold;
+  font-weight: 600;
+  font-size: 10px;
+  margin-top: -10px;
+}
