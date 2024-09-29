@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Fredoka", sans-serif;
+  background-color: #a0dde6;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 500px;
+}
+.title-text {
+  font-size: 32px;
+  color: #186380;
+}
+.number-container {
+  font-size: 150px;
+  color: #186380;
+}
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  width: fit-content;
+  gap: 32px;
+}
+.btn {
+  padding: 16px 32px;
+  font-size: 24px;
+  color: #a0dde6;
+  background-color: #186380;
+  border: #186380 3px solid;
+  border-radius: 40px;
+}
+.btn:hover {
+  color: #186380;
+  background-color: #a0dde6;
+}

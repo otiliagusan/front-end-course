@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: linear-gradient(140deg, #cbcbff, #6153b1);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.buttons {
+  display: flex;
+  gap: 24px;
+  margin-top: 50px;
+}
+.btn {
+  padding: 12px 24px;
+  background-color: #6959be;
+  color: #fff;
+  border: #6959be solid 3px;
+  border-radius: 40px;
+  font-size: 16px;
+  font-weight: 500;
+}
+.btn:hover {
+  background-color: #cbcbff;
+  border-color: #cbcbff;
+  color: #6959be;
+}
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: #6153b1 solid 2px;
+  background-color: #cbcbff;
+  border-radius: 24px;
+  height: fit-content;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  z-index: 99;
+  transition: visibility 0s, opacity 0.3s ease-in-out;
+  box-shadow: 0 6px 20px rgba(27, 0, 78, 0.2);
+}
+.modal::before {
+  filter: blur(8px);
+  -webkit-filter: blur(10px);
+}
+.content-container {
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.btn1 {
+  padding: 10px 20px;
+  border: #6959be solid 2px;
+  border-radius: 20px;
+  font-weight: 600;
+}
+.modal-buttons {
+  margin-top: 20px;
+  align-self: flex-end;
+}
+.modal-buttons .yes-button {
+  margin-left: 10px;
+  background-color: #6959be;
+  color: #fff;
+}
+.modal-buttons .cancel {
+  color: #6959be;
+}
+.cancel:hover {
+  background-color: #6959be;
+  color: #fff;
+}
+.yes-button:hover {
+  background-color: #fff;
+  color: #6959be;
+}
+.hidden {
+  display: none;
+}
+/* .blur {
+  filter: blur(8px);
+  -webkit-filter: blur(10px);
+} */
+.content {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  filter: blur(10px);
+}
+.icon {
+  background-color: #cbcbff;
+  border: none;
+  align-self: flex-end;
+  cursor: pointer;
+}
+.close-icon {
+  font-size: 20px;
+  color: #6153b1;
+}
